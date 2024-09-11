@@ -69,10 +69,11 @@ overlap = function(data_input, comm, dr, posterior){
     filter(Var1 != Var2) %>%
     select(Name)
   
-  
+
   ma = matrix(NA, nrow = dr, ncol = length(name_matrix[,1]))
   
-  for(i in 1:length(name_matrix[,1])){ 
+ for(i in 1:length(name_matrix[,1])){ 
+
     
     overlap = bayesianOverlap(ellipse1 = as.character(name_matrix[i,1]), 
                               ellipse2 = as.character(name_matrix[i,2]), 
