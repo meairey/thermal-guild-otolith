@@ -3,5 +3,12 @@
 .RData
 .Ruserdata
 *.RData
-*.CSV
+.CSV
 *.Rproj
+Data_Generation.R
+*.pdf
+*.png
+*xlsx
+*.html
+*.docx
+*.Rmd
